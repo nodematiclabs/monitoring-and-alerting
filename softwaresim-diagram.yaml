@@ -1,0 +1,719 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 630
+  viewPortHeight: 518
+  horizontalOffset: 19
+  verticalOffset: -71
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 518
+connectors:
+  - id: Dashed Orthogonal ConnectorHByU7
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 274
+      y: 297
+    targetPoint:
+      x: 424
+      y: 263.5
+    sourceID: Cloud RunEUntC
+    targetID: Cloud MonitoringlhQCR
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Dashed Orthogonal ConnectorHCNJH
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 615
+      y: 297
+    targetPoint:
+      x: 424
+      y: 263.5
+    sourceID: Compute EngineLT43l
+    targetID: Cloud MonitoringlhQCR
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Compute EngineLT43ltext-callout
+    sourceID: Compute EngineLT43l
+    targetID: TextN9nsf
+    targetDecorator:
+      width: 0
+      height: 0
+    style:
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+      strokeDashArray: 16 8
+    zIndex: 6
+    targetPoint:
+      x: 667.7
+      y: 436
+    sourcePoint:
+      x: 644.6
+      y: 397
+  - id: Straight ConnectorFtwK2
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 356.2
+      y: 163.5
+    targetPoint:
+      x: 274
+      y: 102.88
+    sourceID: Cloud MonitoringlhQCR
+    targetID: Emailn5CgH
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Straight ConnectorxckTR
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 412.48
+      y: 163.5
+    targetPoint:
+      x: 404.29
+      y: 128
+    sourceID: Cloud MonitoringlhQCR
+    targetID: PagerDutyDyND6
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Straight ConnectorGRFfT
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 471.8
+      y: 163.5
+    targetPoint:
+      x: 506
+      y: 127.72
+    sourceID: Cloud MonitoringlhQCR
+    targetID: SlackKFB4l
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_monitoring_Black_87_w787fy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_monitoring_uszrvg.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Monitoring</div><div
+        class="c-short-description">Tracking, analyzing, and optimizing the
+        performance and availability of cloud-based applications and
+        infrastructure</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud MonitoringlhQCR
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Monitoring
+        shortDescription: Tracking, analyzing, and optimizing the performance and
+          availability of cloud-based applications and infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Monitoring
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Monitoring
+      editableName: Cloud Monitoring
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Monitoring
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_monitoring_uszrvg.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_monitoring__044448_wtgpkc.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_monitoring_Black_87_w787fy.png
+      color: "#3871e0"
+      controlText: Cloud Monitoring
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 424
+    offsetY: 213.5
+    zIndex: 0
+    inEdges:
+      - Dashed Orthogonal ConnectorHByU7
+      - Dashed Orthogonal ConnectorHCNJH
+    outEdges:
+      - Straight ConnectorFtwK2
+      - Straight ConnectorxckTR
+      - Straight ConnectorGRFfT
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #3871e0;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_Black_87_hlfiaq.png);\"></div><div class=\"c-image-original\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_rluunv.png);\"></div><div class=\"c-text\"><div
+        class=\"c-title\">Compute Engine</div><div
+        class=\"c-short-description\">Running virtual machines on Google's
+        infrastructure</div><div class=\"c-bottom\"><div class=\"c-hr
+        p-mb-1\"></div><div class=\"c-title-bottom\">Google Cloud
+        Platform</div></div></div></div></div>"
+    id: Compute EngineLT43l
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Compute Engine
+        shortDescription: Running virtual machines on Google's infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Compute Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Compute Engine
+      editableName: Compute Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+        - name: Connection Receiver
+          type: Storage
+          portsIn:
+            put: connection
+            get: get
+          portsOut:
+            stored: connection
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+        - type: Storage
+          status: Idle
+          name: Connection Receiver
+      name: Compute Engine
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      color: "#3871e0"
+      controlText: Compute Engine
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 615
+    offsetY: 347
+    zIndex: 1
+    outEdges:
+      - Dashed Orthogonal ConnectorHCNJH
+      - Compute EngineLT43ltext-callout
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud RunEUntC
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Run
+      editableName: Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Run
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 274
+    offsetY: 347
+    zIndex: 2
+    outEdges:
+      - Dashed Orthogonal ConnectorHByU7
+  - shape:
+      type: Path
+      data: M0,0 L14,0
+    id: TextN9nsf
+    width: 165.00000000000003
+    height: 50
+    style:
+      fill: none
+      strokeWidth: 2
+      strokeColor: "#2A2A2A"
+    annotations:
+      - id: GXFT5
+        content: "*Involves Op Agent installation"
+        style:
+          fill: none
+          fontSize: 14
+          bold: true
+          color: "#2A2A2A"
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+      status: N/A
+      type: text
+      size: sm
+    offsetX: 682.5
+    offsetY: 461
+    zIndex: 5
+    inEdges:
+      - Compute EngineLT43ltext-callout
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #14872D; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709151921/sds_logos/PagerDuty_Black_87_bk8siv.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1709151921/sds_logos/PagerDuty_swtawk.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>PagerDuty</div></div><hr class="c-underrule"
+        style="background-color: #14872D"></div>'
+    id: PagerDutyDyND6
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: PagerDuty
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: PagerDuty
+      status: N/A
+      size: sm
+      nodeType: html
+      title: PagerDuty
+      editableName: PagerDuty
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Logger
+          type: Storage
+          portsIn:
+            put: logs
+            get: fetch
+          portsOut:
+            stored: logs
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Logger
+      name: PagerDuty
+      category: 2
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709151921/sds_logos/PagerDuty_swtawk.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709151921/sds_logos/PagerDuty__044448_dmxgnq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1709151921/sds_logos/PagerDuty_Black_87_bk8siv.png
+      color: "#14872D"
+      controlText: PagerDuty
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 150.00000000000006
+    height: 124
+    offsetX: 390
+    offsetY: 66
+    zIndex: 7
+    inEdges:
+      - Straight ConnectorxckTR
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #E01E5A; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Slack_Black_87_lweo1o.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Slack_pcsfrc.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Slack</div></div><hr class="c-underrule"
+        style="background-color: #E01E5A"></div>'
+    id: SlackKFB4l
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Slack
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Slack
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Slack
+      editableName: Slack
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Notification Target
+          type: Storage
+          portsIn:
+            put: notification
+            get: fetch
+          portsOut:
+            stored: notification
+        - name: Action Trigger
+          type: Processor
+          portsIn:
+            job: trigger
+          portsOut:
+            job: action
+          serviceTime:
+            exp:
+              lambda: AverageTimeToTriggerAction
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Notification Target
+        - type: Processor
+          status: Idle
+          name: Action Trigger
+          AverageTimeToTriggerAction: 1
+      name: Slack
+      category: 2
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Slack_pcsfrc.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Slack__044448_ch9wlb.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Slack_Black_87_lweo1o.png
+      color: "#E01E5A"
+      controlText: Slack
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 117.99999999999999
+    height: 124
+    offsetX: 565
+    offsetY: 66
+    zIndex: 8
+    inEdges:
+      - Straight ConnectorGRFfT
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #976a02; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Email</div></div><hr class="c-underrule"
+        style="background-color: #976a02"></div>'
+    id: Emailn5CgH
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Email
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Email
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Email
+      editableName: Email
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Notification Target
+          type: Storage
+          portsIn:
+            put: notification
+            get: fetch
+          portsOut:
+            stored: notification
+        - name: Action Trigger
+          type: Processor
+          portsIn:
+            job: trigger
+          portsOut:
+            job: action
+          serviceTime:
+            exp:
+              lambda: AverageTimeToTriggerAction
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Notification Target
+        - type: Processor
+          status: Idle
+          name: Action Trigger
+          AverageTimeToTriggerAction: 1
+      name: Email
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_976a02_h5kj7b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_t1ealv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Email_Black_87_xlvbmn.png
+      controlText: Email
+      color: "#976a02"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 224
+    offsetY: 66
+    zIndex: 9
+    inEdges:
+      - Straight ConnectorFtwK2
+selectedItems:
+  width: 0
+  height: 0
